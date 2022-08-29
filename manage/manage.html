@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>社团管理系统</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../base.css">
+    <link rel="stylesheet" href="./manage.css">
+</head>
+<body>
+    <!--顶部导航条-->
+    <!--顶部导航条外部容器-->
+    <!--顶部导航条外部容器-->
+    <div class="topbar-wrapper">
+        <!--内部容器-->
+        <div class="topbar">
+            <!--左侧导航-->
+            <ul class="service">
+                <li><a href="../Index/index.html">社团管理系统</a></li>
+            </ul>
+
+            <!--右侧登录-->
+            <ul class="user-info">
+                <li><a href="../Index/index.html">退出账号</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <!--创建主界面-->
+    <div class="main-wrapper">
+        <!--创建左侧导航菜单-->
+        <ul class="left-menu">
+            <li class="manager">
+                <img src="../img/act1.jpg" alt="">
+                <ul>
+                    <li>SUFE的猫猫</li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    基本信息
+                    <i class="fas fa-angle-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    成员管理
+                    <i class="fas fa-angle-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    学生申请
+                    <i class="fas fa-angle-right"></i>
+                </a>
+            </li>             
+            </li>
+            <li>
+                <a href="#">
+                    活动申请
+                    <i class="fas fa-angle-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    活动列表
+                    <i class="fas fa-angle-right"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    公告管理
+                    <i class="fas fa-angle-right"></i>
+                </a>
+            </li>
+            
+        </ul>
+        <!--基本信息-->  
+        <div class="main1">
+            <h1 class="clubname">
+                音乐社
+            </h1>
+            <ul class="intro">
+                <li class="intro-title">
+                    <p>成立时间</p>
+                </li>
+                <li class="intro-detail">
+                    <p>2022-6-1</p>
+                </li>
+            </ul>
+            <ul class="intro">
+                <li class="intro-title">
+                    <p>社团描述</p>
+                </li>
+                <li class="intro-detail">
+                    <p>音乐社是为学生提供音乐交流的社团，致力于提供一个音乐喜爱者交流的平台，激发学生对音乐的热爱。</p>
+                </li>
+            </ul>
+            <ul class="intro">
+                <li class="intro-title">
+                    <p>社团类型</p>
+                </li>
+                <li class="intro-detail">
+                    <p>艺术类</p>
+                </li>
+            </ul>
+            <ul class="intro">
+                <li class="intro-title">
+                    <p>社团负责人</p>
+                </li>
+                <li class="intro-detail">
+                    <p>小明</p>
+                </li>
+            </ul>
+            <ul class="intro2">
+                <li class="intro-title">
+                    <p>社团头像</p>
+                </li>
+                <li class="intro-img"> 
+                    <div class="top">
+                        <div class="left">
+                            <form method="get" enctype="multipart/form-data"> <img src="../img/音乐社.jpeg" />
+                                <label for="inputFile" class="button">
+                                </label>
+                                <input type="file" id="inputFile" style="display: none; " multiple="multiple"></form>
+             
+                        </div>
+                    </div>
+                    <div style="width: 998px;height: 45px; background: #FFFFFF;line-height: 45px;margin-left: 20px;">
+                        <label for="inputFile" class="button">
+                            <span style="line-height: 40px; text-align: center; width: 100px;height: 40px; background: white;border: 1px solid #CCCCCC;border-radius: 3px;display: inline-block;">继续选择</span>
+                        </label>
+                        <input type="file" id="inputFile" style="display: none; " multiple="multiple">
+                        <button style="line-height: 40px; text-align: center; width: 100px;height: 41px; background: #ededed;border: 1px solid #CCCCCC;border-radius: 3px;display: inline-block;">开始上传</button>
+                    </div>
+                    <div id="imgDiv"></div>
+                </li>
+            </ul>
+            <ul class="intro2">
+                <li class="intro-title">
+                    <p>社团风采</p>
+                </li>
+                <li class="intro-img"> 
+                    <div class="top">
+                        <div class="left1">
+                            <form method="get" enctype="multipart/form-data"> <img src="../img/music-together.jpeg" style="height: 200px;width: 400px;"/>
+                                <label for="inputFile" class="button">
+                                </label>
+                                <input type="file" id="inputFile" style="display: none; " multiple="multiple"></form>
+             
+                        </div>
+                    </div>
+                    <div style="width: 998px;height: 45px; background: #FFFFFF;line-height: 45px;margin-left: 20px;">
+                        <label for="inputFile" class="button">
+                            <span style="line-height: 40px; text-align: center; width: 100px;height: 40px; background: white;border: 1px solid #CCCCCC;border-radius: 3px;display: inline-block;">继续选择</span>
+                        </label>
+                        <input type="file" id="inputFile" style="display: none; " multiple="multiple">
+                        <button style="line-height: 40px; text-align: center; width: 100px;height: 41px; background: #ededed;border: 1px solid #CCCCCC;border-radius: 3px;display: inline-block;">开始上传</button>
+                    </div>
+                    <div id="imgDiv"></div>
+                </li>
+            </ul>      
+        </div>
+        <!--成员管理--> 
+        <div class="main2">
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>姓名</th>
+                        <th>学号</th>
+                        <th>性别</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>  
+        </div>  
+        <!--学生申请--> 
+        <div class="main-apply">
+            <div class="rutuan">
+                <ul class="apply">
+                    <li class="apply-title">
+                        <p>入团申请</p>
+                    </li>
+                    <li class="apply-yes">
+                        <a href="#"><i class="fas fa-check"></i></a>
+                    </li>
+                    <li class="apply-no">
+                        <a href="#"><i class="fas fa-times"></i></a>
+                    </li>
+            </ul>
+            <ul class="apply2">
+                <li class="apply-detail">
+                    <p>姓名：兰兰</p>
+                    <p>学号：2019000103</p>
+                    <p>申请理由：从小热爱音乐，想加入社团结交跟自己一样喜欢音乐的好朋友们，一起参加音乐活动，享受音乐带来的快乐。</p>
+                </li>
+            </ul>
+            </div>
+            <div class="rutuan">
+                <ul class="apply">
+                    <li class="apply-title">
+                        <p>入团申请</p>
+                    </li>
+                    <li class="apply-yes">
+                        <a href="#"><i class="fas fa-check"></i></a>
+                    </li>
+                    <li class="apply-no">
+                        <a href="#"><i class="fas fa-times"></i></a>
+                    </li>
+            </ul>
+            <ul class="apply2">
+                <li class="apply-detail">
+                    <p>姓名：蓝蓝</p>
+                    <p>学号：2019000080</p>
+                    <p>申请理由：从小热爱音乐，想加入社团结交跟自己一样喜欢音乐的好朋友们，一起参加音乐活动，享受音乐带来的快乐。</p>
+                </li>
+            </ul>
+            </div>
+            <div class="rutuan">
+                <ul class="apply">
+                    <li class="apply-title">
+                        <p>入团申请</p>
+                    </li>
+                    <li class="apply-yes">
+                        <a href="#"><i class="fas fa-check"></i></a>
+                    </li>
+                    <li class="apply-no">
+                        <a href="#"><i class="fas fa-times"></i></a>
+                    </li>
+            </ul>
+            <ul class="apply2">
+                <li class="apply-detail">
+                    <p>姓名：小红</p>
+                    <p>学号：2019123456</p>
+                    <p>申请理由：从小热爱音乐，想加入社团结交跟自己一样喜欢音乐的好朋友们，一起参加音乐活动，享受音乐带来的快乐。</p>
+                </li>
+            </ul>
+            </div>
+            <div class="rutuan">
+                <ul class="apply">
+                    <li class="apply-title">
+                        <p>入团申请</p>
+                    </li>
+                    <li class="apply-yes">
+                        <a href="#"><i class="fas fa-check"></i></a>
+                    </li>
+                    <li class="apply-no">
+                        <a href="#"><i class="fas fa-times"></i></a>
+                    </li>
+            </ul>
+            <ul class="apply2">
+                <li class="apply-detail">
+                    <p>姓名：小红</p>
+                    <p>学号：2019123456</p>
+                    <p>申请理由：从小热爱音乐，想加入社团结交跟自己一样喜欢音乐的好朋友们，一起参加音乐活动，享受音乐带来的快乐。</p>
+                </li>
+            </ul>
+            </div>
+            <div class="rutuan">
+                <ul class="apply">
+                    <li class="apply-title">
+                        <p>入团申请</p>
+                    </li>
+                    <li class="apply-yes">
+                        <a href="#"><i class="fas fa-check"></i></a>
+                    </li>
+                    <li class="apply-no">
+                        <a href="#"><i class="fas fa-times"></i></a>
+                    </li>
+            </ul>
+            <ul class="apply2">
+                <li class="apply-detail">
+                    <p>姓名：小红</p>
+                    <p>学号：2019123456</p>
+                    <p>申请理由：从小热爱音乐，想加入社团结交跟自己一样喜欢音乐的好朋友们，一起参加音乐活动，享受音乐带来的快乐。</p>
+                </li>
+            </ul>
+            </div>
+        </div>
+        <!--活动申请--> 
+        <div class="main">
+            <h1 class="clubname">
+                活动申请
+            </h1>
+            <ul class="act-apply">
+                <ul class="apply">
+                    <li class="apply-title">
+                        <p>活动申请</p>
+                    </li>
+                    <li class="act-yes">
+                        <a href="#"><p>提交</p></a>
+                    </li>
+            </ul>
+                <li class="act-apply-detail">
+                    <ul>
+                        <li>活动名称：</li>
+                        <li><textarea name="" id="" cols="90" rows="1"></textarea></li>
+                    </ul>
+                    <ul>
+                        <li>活动时间：</li>
+                        <li><textarea name="" id="" cols="90" rows="1"></textarea></li>
+                    </ul>
+                    <ul>
+                        <li>活动地点：</li>
+                        <li><textarea name="" id="" cols="90" rows="1"></textarea></li>
+                    </ul>
+                    <ul>
+                        <li>活动经费：</li>
+                        <li><textarea name="" id="" cols="90" rows="1"></textarea></li>
+                    </ul>
+                    <ul>
+                        <li>活动性质：</li>
+                        <li><textarea name="" id="" cols="90" rows="1"></textarea></li>
+                    </ul>
+                    <ul>
+                        <li>活动介绍：</li>
+                        <li><textarea name="" id="" cols="90" rows="2"></textarea></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="act-apply-example">
+                <li class="act-apply-title">
+                    <p>活动详情</p>
+                </li>
+                <li class="act-apply-detail">
+                    <ul>
+                        <li>活动状态：</li>
+                        <li>申请中</li>
+                    </ul>
+                    <ul>
+                        <li>活动名称：</li>
+                        <li>常规活动</li>
+                    </ul>
+                    <ul>
+                        <li>活动时间：</li>
+                        <li>2022.6.10</li>
+                    </ul>
+                    <ul>
+                        <li>活动地点：</li>
+                        <li>大学生活动中心</li>
+                    </ul>
+                    <ul>
+                        <li>活动经费：</li>
+                        <li>5000</li>
+                    </ul>
+                    <ul>
+                        <li>活动性质：</li>
+                        <li>社团常规活动</li>
+                    </ul>
+                    <ul>
+                        <li>活动介绍：</li>
+                        <li>增加社团交流。</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="act-apply">
+                <li class="act-apply-title">
+                    <p>活动详情</p>
+                </li>
+                <li class="act-apply-detail">
+                    <ul>
+                        <li>活动状态：</li>
+                        <li>申请中</li>
+                    </ul>
+                    <ul>
+                        <li>活动名称：</li>
+                        <li>校园十大歌手决赛</li>
+                    </ul>
+                    <ul>
+                        <li>活动时间：</li>
+                        <li>2022.6.1 18:00</li>
+                    </ul>
+                    <ul>
+                        <li>活动地点：</li>
+                        <li>大学生活动中心</li>
+                    </ul>
+                    <ul>
+                        <li>活动经费：</li>
+                        <li>5000</li>
+                    </ul>
+                    <ul>
+                        <li>活动性质：</li>
+                        <li>社团大型活动</li>
+                    </ul>
+                    <ul>
+                        <li>活动介绍：</li>
+                        <li>歌颂青春、鼓励音乐表达与创作，为校园中热爱音乐的学生提供展示的平台。</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--活动管理--> 
+        <div class="main">
+            <h1 class="clubname">
+                活动列表
+            </h1>
+            <ul class="act-apply">
+                <li class="act-apply-title">
+                    <p>活动详情</p>
+                </li>
+                <li class="act-apply-detail">
+                    <ul>
+                        <li>活动状态：</li>
+                        <li>已举办</li>
+                    </ul>
+                    <ul>
+                        <li>活动名称：</li>
+                        <li>校园十大歌手初赛选拔</li>
+                    </ul>
+                    <ul>
+                        <li>活动时间：</li>
+                        <li>2022.6.1 18:00</li>
+                    </ul>
+                    <ul>
+                        <li>活动地点：</li>
+                        <li>大学生活动中心</li>
+                    </ul>
+                    <ul>
+                        <li>活动经费：</li>
+                        <li>1000</li>
+                    </ul>
+                    <ul>
+                        <li>活动性质：</li>
+                        <li>社团大型活动</li>
+                    </ul>
+                    <ul>
+                        <li>活动介绍：</li>
+                        <li>歌颂青春、鼓励音乐表达与创作，为校园中热爱音乐的学生提供展示的平台。</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--公告管理--> 
+        <div class="main">
+            <h1 class="clubname">
+                公告列表
+            </h1>
+            <ul class="notice">
+                <ul class="apply">
+                    <li class="apply-title">
+                        <p>发布公告</p>
+                    </li>
+                    <li class="notice-yes">
+                        <a href="#"><p>发布</p></a>
+                    </li>
+            </ul>
+                <li class="notice-detail">
+                    <ul>
+                        <li><textarea name="" id="" cols="90" rows="6"></textarea></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="notice-example">
+                <li class="notice-title">
+                    <p>公告详情</p>
+                </li>
+                <li class="notice-detail1">
+                    <ul>
+                        <li>发布日期：</li>
+                        <li>2022.6.10</li>
+                    </ul>
+                    <ul>
+                        <li>公告内容：</li>
+                        <li>十大歌手观众门票申请已经开始，各位可以进行申请。</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="notice1">
+                <li class="notice-title">
+                    <p>公告详情</p>
+                </li>
+                <li class="notice-detail1">
+                    <ul>
+                        <li>发布日期：</li>
+                        <li>2022.5.1</li>
+                    </ul>
+                    <ul>
+                        <li>公告内容：</li>
+                        <li>十大歌手观众门票申请已经开始，各位可以进行申请。</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="./manage.js"></script>
+</html>

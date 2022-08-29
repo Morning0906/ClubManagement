@@ -1,0 +1,133 @@
+/*顶部导航条的容器*/
+.topbar{
+    /*宽度全屏*/
+    width: 100%;
+    /*写了line-height后height可写可不写*/
+    height: 60px;
+    line-height: 40px;
+    background-color: #333;
+}
+
+/*设置超链接的颜色*/
+.topbar a{
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin-top: 10px;
+}
+
+/*设置超链接移入效果*/
+.topbar a:hover{
+    color: #ffffff;
+}
+
+/*设置分割线*/
+.topbar .line{
+    color: white;
+    font-size: 12px;
+    margin: 8px;
+}
+
+/*设置左侧导航栏*/
+.service, .topbar li{
+    float: left;
+    margin-left: 50px;
+}
+
+.app{
+    position: relative;
+    
+}
+
+.app:hover::after{
+    display: block;
+}
+
+/*右侧导航*/
+.shop-cart, .user-info{
+    float: right;
+}
+
+.user-info a{
+    font-size: 12px;
+    color: white;
+    display: block;
+}
+
+.leftpart{
+    position: relative;
+    float: left;
+    width: 69%;
+    border-right-width:1px;
+    border-right-style:solid;
+    border-right-color:#333;
+}
+
+.banner{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 4%;
+}
+
+.banner img{
+    position: relative;
+    width: 50%;
+    height: 20%;
+}
+
+.title{
+    position: relative;
+    font-size: 26px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.content{
+    position: relative;
+    margin: auto;
+    width: 75%;
+    margin-top: 5%;
+}
+
+.line1{
+    float:left;
+    margin-top: 30px;
+    width: 1px;
+    height: 400px;
+    background: darkgray;
+    margin-left: 800px;
+}
+
+.act{
+    float: right;
+    width: 30%;
+    margin-top: 6%;
+}
+
+.act ul {
+    width: auto;
+    height: 380px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.act a{
+    display: flex;
+}
+
+.act li{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.act h1{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.act img{
+    width: 150px;
+    height: 100px;
+}
